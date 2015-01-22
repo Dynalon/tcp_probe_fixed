@@ -99,7 +99,7 @@ static inline void copy_to_tcp_probe(const struct sock *sk, const struct sk_buff
 	p->snd_cwnd = tp->snd_cwnd;
 	p->snd_wnd = tp->snd_wnd;
 	p->ssthresh = tcp_current_ssthresh(sk);
-	p->srtt = tp->srtt >> 3;
+	p->srtt = tp->srtt_us >> 3;
 	
 	p->length = skb == NULL ? 0 : skb->len;
 	
