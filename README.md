@@ -1,3 +1,5 @@
+### __UNMAINTED WARNING__: I am not actively maintaining this module anymore. This code was designed to run against Ubuntu 12.04 kernel versions and I keep this repo for reference and historical reasons. I am not accepting pull requests and will not answer support inquiries sent to my private email.
+
 About
 ======
 
