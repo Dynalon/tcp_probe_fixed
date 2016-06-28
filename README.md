@@ -34,6 +34,3 @@ Usage: Same as the original `tcp_probe` module. I.e:
 
 	insmod tcp_probe_fixed.ko port=8080 full=1
 
-Contact
-=======
-Timo Dörr: timo@latecrew.de
